@@ -1,0 +1,20 @@
+[project]
+name = "voicechange"
+version = "0.1.0"
+description = "Voice change tool."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "librosa>=0.11.0",
+    "numpy>=2.1.3",
+    "pyrubberband>=0.4.0",
+    "scipy>=1.15.2",
+    "soundfile>=0.13.1",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.format]
+quote-style = "single"

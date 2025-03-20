@@ -1,2 +1,3 @@
-# voicechange
-Voice change tool
+# VoiceChange
+
+Voice change tool.
